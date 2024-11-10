@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: extra;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: variable;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.box {
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 350px;
+    height: 470px;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+    box-shadow: 6px 7px 0px;
+}
+
+img {
+    height: 180px;
+    width: 319px;
+    /* border-top-left-radius: 12px; */
+    border-radius: 13px;
+    margin-left: 17px;
+    margin-top: 17px;
+    /*margin-right: 17px;
+    */
+    align-items: center;
+}
+
+.learning {
+    padding-top: 5px;
+    background-color: hsl(47, 88%, 63%);
+    width: 90px;
+    height: 28px;
+    border-radius: 5px;
+    margin-left: 17px;
+    padding-left: 14px;
+    font-size: 18px;
+    /* text-align: center; */
+    font-family: extra;
+}
+
+.pub {
+    font-family: semibold;
+    margin-left: 17px;
+    font-size: 15px;
+    margin-bottom: 7px;
+    /* background-color: aqua; */
+}
+
+.html {
+    font-family: extra;
+    font-weight: 1500;
+    /* background-color: aqua; */
+    margin-left: 17px;
+    margin-bottom: 7px;
+}
+
+.para {
+    margin-left: 17px;
+    font-family: variable;
+    font-size: 15px;
+    /* background-color:blue; */
+    margin-bottom: -4px;
+}
+
+.img2 {
+    height: 28px;
+    width: 28px;
+    /* background-color:blue;   */
+}
